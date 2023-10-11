@@ -1,0 +1,31 @@
+(RPS-Stamp
+   :proposal 0
+   :visit "004"
+   :absolute-time 3893759637
+   :sub-system "APT"
+   :version "2023.1.1"
+   :file-name "0-004.vdf"
+)
+
+(define-fixed-target
+   :proposal-id 0
+   :visit-id "004"
+   :target-number "4"
+   :target-id "G-249-36"
+   :ra 91.37506927610124
+   :dec 60.81951099050084
+)
+(define-visit
+   :proposal-id 0
+   :visit-id "004"
+   :target-ids '("G-249-36")
+   :dark nil
+   :low-sky nil
+   :trans-efficiency-level 100
+   :cvz nil
+   :parallel nil
+   :visit-status :active
+)
+(End-RPS-File
+   :checksum 0
+)
