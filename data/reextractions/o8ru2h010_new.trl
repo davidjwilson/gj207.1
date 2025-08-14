@@ -110,3 +110,220 @@ Warning  Keyword `XTRACALG' is being added to header.
 End      19-Apr-2023 11:50:37 MDT
 
 *** CALSTIS-6 complete ***
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    14-Nov-2023 11:59:08 MST
+
+INFO     'E1' has been appended to aperture
+ERROR    Output file `data/reextractions/o8ru2h010_new_x1d.fits' already exists.
+Error processing /media/david/2tb_ext_hd/hddata/carmenes_binary/wolf1130/hst/data/recal/o8ru2h010_crj.fits.
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    14-Nov-2023 11:59:51 MST
+
+INFO     'E1' has been appended to aperture
+Input    /media/david/2tb_ext_hd/hddata/carmenes_binary/wolf1130/hst/data/recal/o8ru2h010_crj.fits
+Output   data/reextractions/o8ru2h010_new_sx1.fits
+Rootname o8ru2h010
+OBSMODE  ACCUM
+APERTURE 52X0.2E1
+OPT_ELEM G230LB
+DETECTOR CCD
+
+XTRACTAB oref$n7p1031qo_1dx.fits
+XTRACTAB PEDIGREE=INFLIGHT 18/05/97
+XTRACTAB DESCRIP =Analysis from prop. 7094
+XTRACTAB DESCRIP =Analysis from prop. 7094
+SPTRCTAB oref$qa31608go_1dt.fits
+SPTRCTAB PEDIGREE=INFLIGHT 02/09/1997 13/02/1998
+SPTRCTAB DESCRIP =New traces to account for angle change with time
+
+Imset 1  Begin 11:59:52 MST
+         Input read into memory.
+Order 1  Begin 11:59:52 MST
+X1DCORR  PERFORM
+BACKCORR PERFORM
+******** Calling Slfit ***********BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 58
+
+DISPCORR PERFORM
+DISPTAB  oref$l2j0137to_dsp.fits
+DISPTAB  PEDIGREE=INFLIGHT 27/02/1997 24/11/1999
+DISPTAB  DESCRIP =Lindler, May 2000
+DISPTAB  DESCRIP =Lindler Postlaunch, May 2000
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 13/06/2017
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Offset relative to row 900
+INANGTAB oref$h5s11397o_iac.fits
+INANGTAB DESCRIP =Model/C. Bowers May 6, 1997
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+PHOTTAB  oref$74e15479o_pht.fits
+PHOTTAB  PEDIGREE=INFLIGHT 27/02/1997 16/03/2021
+PHOTTAB  DESCRIP =Updated sensitivity curves for G750L
+APERTAB  oref$y2r1559to_apt.fits
+APERTAB  PEDIGREE=MODEL
+APERTAB  DESCRIP =Added/updated values for 31X0.05NDA,31X0.05NDB,31X0.05NDC apertures
+APERTAB  DESCRIP =Bohlin/Hartig TIM Models Nov. 1998
+GACTAB   oref$p9r19203o_gac.fits
+GACTAB   PEDIGREE=INFLIGHT 22/04/2002 03/08/2004
+GACTAB   DESCRIP =X1D flux corr for grating/aper combos
+GACTAB   DESCRIP =Grating-Aperture Throughput Correction
+PCTAB    oref$q541740lo_pct.fits
+PCTAB    PEDIGREE=INFLIGHT 18/05/1997 07/10/1999
+PCTAB    DESCRIP =Sensitivity for diff. extractions heights
+TDSTAB   oref$t9a1003so_tds.fits
+TDSTAB   PEDIGREE=INFLIGHT 01/04/1996 08/10/2009
+TDSTAB   DESCRIP =Revised sensitivities for L, M, and E modes
+FLUXCORR PERFORM
+CTECORR  PERFORM
+CCDTAB   oref$0841734do_ccd.fits
+CCDTAB   PEDIGREE=INFLIGHT 12/07/2001 25/02/2002
+CCDTAB   DESCRIP =Updated readnoise for gain={1,4}, all amps, binning=1x1------------
+CCDTAB   DESCRIP =all bias frames
+         GACTAB correction applied for G230LB 52X0.2E1 2375
+CTECORR  COMPLETE
+FLUXCORR COMPLETE
+SGEOCORR OMIT
+
+         Row 1 written to disk.
+Order 1  End 11:59:52 MST
+
+         trace was rotated by = 0.0197823 degree.
+Imset 1  End 11:59:52 MST
+
+Warning  Keyword `XTRACALG' is being added to header.
+End      14-Nov-2023 11:59:52 MST
+
+*** CALSTIS-6 complete ***
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    14-Nov-2023 12:01:05 MST
+
+INFO     'E1' has been appended to aperture
+ERROR    Output file `data/reextractions/o8ru2h010_new_sx1.fits' already exists.
+Error processing /media/david/2tb_ext_hd/hddata/carmenes_binary/wolf1130/hst/data/recal/o8ru2h010_fixed_crj.fits.
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    14-Nov-2023 12:01:14 MST
+
+INFO     'E1' has been appended to aperture
+Input    /media/david/2tb_ext_hd/hddata/carmenes_binary/wolf1130/hst/data/recal/o8ru2h010_fixed_crj.fits
+Output   data/reextractions/o8ru2h010_fixed_sx1.fits
+Rootname o8ru2h010
+OBSMODE  ACCUM
+APERTURE 52X0.2E1
+OPT_ELEM G230LB
+DETECTOR CCD
+
+XTRACTAB oref$n7p1031qo_1dx.fits
+XTRACTAB PEDIGREE=INFLIGHT 18/05/97
+XTRACTAB DESCRIP =Analysis from prop. 7094
+XTRACTAB DESCRIP =Analysis from prop. 7094
+SPTRCTAB oref$qa31608go_1dt.fits
+SPTRCTAB PEDIGREE=INFLIGHT 02/09/1997 13/02/1998
+SPTRCTAB DESCRIP =New traces to account for angle change with time
+
+Imset 1  Begin 12:01:14 MST
+         Input read into memory.
+Order 1  Begin 12:01:14 MST
+X1DCORR  PERFORM
+BACKCORR PERFORM
+******** Calling Slfit ***********BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 58
+
+DISPCORR PERFORM
+DISPTAB  oref$l2j0137to_dsp.fits
+DISPTAB  PEDIGREE=INFLIGHT 27/02/1997 24/11/1999
+DISPTAB  DESCRIP =Lindler, May 2000
+DISPTAB  DESCRIP =Lindler Postlaunch, May 2000
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 13/06/2017
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Offset relative to row 900
+INANGTAB oref$h5s11397o_iac.fits
+INANGTAB DESCRIP =Model/C. Bowers May 6, 1997
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+PHOTTAB  oref$74e15479o_pht.fits
+PHOTTAB  PEDIGREE=INFLIGHT 27/02/1997 16/03/2021
+PHOTTAB  DESCRIP =Updated sensitivity curves for G750L
+APERTAB  oref$y2r1559to_apt.fits
+APERTAB  PEDIGREE=MODEL
+APERTAB  DESCRIP =Added/updated values for 31X0.05NDA,31X0.05NDB,31X0.05NDC apertures
+APERTAB  DESCRIP =Bohlin/Hartig TIM Models Nov. 1998
+GACTAB   oref$p9r19203o_gac.fits
+GACTAB   PEDIGREE=INFLIGHT 22/04/2002 03/08/2004
+GACTAB   DESCRIP =X1D flux corr for grating/aper combos
+GACTAB   DESCRIP =Grating-Aperture Throughput Correction
+PCTAB    oref$q541740lo_pct.fits
+PCTAB    PEDIGREE=INFLIGHT 18/05/1997 07/10/1999
+PCTAB    DESCRIP =Sensitivity for diff. extractions heights
+TDSTAB   oref$t9a1003so_tds.fits
+TDSTAB   PEDIGREE=INFLIGHT 01/04/1996 08/10/2009
+TDSTAB   DESCRIP =Revised sensitivities for L, M, and E modes
+FLUXCORR PERFORM
+CTECORR  PERFORM
+CCDTAB   oref$0841734do_ccd.fits
+CCDTAB   PEDIGREE=INFLIGHT 12/07/2001 25/02/2002
+CCDTAB   DESCRIP =Updated readnoise for gain={1,4}, all amps, binning=1x1------------
+CCDTAB   DESCRIP =all bias frames
+         GACTAB correction applied for G230LB 52X0.2E1 2375
+CTECORR  COMPLETE
+FLUXCORR COMPLETE
+SGEOCORR OMIT
+
+         Row 1 written to disk.
+Order 1  End 12:01:14 MST
+
+         trace was rotated by = 0.0197823 degree.
+Imset 1  End 12:01:14 MST
+
+Warning  Keyword `XTRACALG' is being added to header.
+End      14-Nov-2023 12:01:14 MST
+
+*** CALSTIS-6 complete ***
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    03-Jan-2024 13:56:20 MST
+
+INFO     'E1' has been appended to aperture
+ERROR    Output file `data/reextractions/o8ru2h010_fixed_sx1.fits' already exists.
+Error processing /media/david/2tb_ext_hd/hddata/carmenes_binary/wolf1130/hst/data/recal/o8ru2h010_fixed_crj.fits.
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    15-Jan-2024 12:22:22 MST
+
+INFO     'E1' has been appended to aperture
+ERROR    Output file `data/reextractions/o8ru2h010_fixed_sx1.fits' already exists.
+Error processing /media/david/2tb_ext_hd/hddata/carmenes_binary/wolf1130/hst/data/recal/o8ru2h010_fixed_crj.fits.
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    06-Mar-2024 10:09:42 MST
+
+INFO     'E1' has been appended to aperture
+ERROR    Output file `data/reextractions/o8ru2h010_fixed_sx1.fits' already exists.
+Error processing /media/david/2tb_ext_hd/hddata/carmenes_binary/wolf1130/hst/data/recal/o8ru2h010_fixed_crj.fits.
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    28-Mar-2024 17:37:41 MDT
+
+INFO     'E1' has been appended to aperture
+ERROR    Output file `data/reextractions/o8ru2h010_fixed_sx1.fits' already exists.
+Error processing /media/david/2tb_ext_hd/hddata/carmenes_binary/wolf1130/hst/data/recal/o8ru2h010_fixed_crj.fits.
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    01-Apr-2024 10:48:02 MDT
+
+INFO     'E1' has been appended to aperture
+ERROR    Output file `data/reextractions/o8ru2h010_fixed_sx1.fits' already exists.
+Error processing /media/david/2tb_ext_hd/hddata/carmenes_binary/wolf1130/hst/data/recal/o8ru2h010_fixed_crj.fits.

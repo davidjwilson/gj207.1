@@ -1,0 +1,17 @@
+(RPS-Stamp
+   :proposal 17778
+   :absolute-time 3931260416
+   :sub-system "APT"
+   :version "2024.3.4"
+   :file-name "17778.prdf"
+)
+
+(define-proposal
+   :proposal-id 17778
+   :preprocessor-errors 2
+   :proposal-version 0
+   :visit-ids '("01")
+)
+(End-RPS-File
+   :checksum 0
+)

@@ -1,0 +1,31 @@
+(RPS-Stamp
+   :proposal 17778
+   :visit "02"
+   :absolute-time 3931257519
+   :sub-system "APT"
+   :version "2024.3.4"
+   :file-name "17778-02.vdf"
+)
+
+(define-fixed-target
+   :proposal-id 17778
+   :visit-id "02"
+   :target-number "2"
+   :target-id "V-V371-ORI"
+   :ra 83.43563708333332
+   :dec 1.9447194444444444
+)
+(define-visit
+   :proposal-id 17778
+   :visit-id "02"
+   :target-ids '("V-V371-ORI")
+   :dark nil
+   :low-sky nil
+   :trans-efficiency-level 70
+   :cvz nil
+   :parallel nil
+   :visit-status :active
+)
+(End-RPS-File
+   :checksum 0
+)

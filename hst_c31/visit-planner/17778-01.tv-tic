@@ -1,0 +1,66 @@
+(RPS-Stamp
+   :proposal 17778
+   :absolute-time 3931260416
+   :sub-system "APT"
+   :version "2024.3.4"
+   :file-name "17778-01.tv-tic"
+)
+
+
+(Tic-Visit
+ :proposal-id 17778
+ :visit-id "01"
+ :proposal-version -1
+ :trans-version "20240604"
+ :date "29-Jul-2024 10:46:55.0"
+ :trans-errors '(:WARNINGS 3 :ERRORS 0 :HEALTH-AND-SAFETY 0
+                 :FATAL-ERRORS 0 :CONTINUABLE-FATALS 0)
+ :number-of-orbits 2
+ :saa-model "24"
+ :si-bright-earth-limb-angle 20.0
+ :data-volume 351296
+ :tdrss-contact-duration 0
+ :coron NIL
+ )
+
+(Tic-Obset
+ :proposal-id 17778
+ :visit-id "01"
+ :obset-id "01"
+ :pcs-mode "FGS"
+ )
+
+(Tic-Orbit
+ :proposal-id 17778
+ :visit-id "01"
+ :orbit-number 1
+ :pcs-time 380
+ :si-vis-utilization 667
+ :al-overhead-at-end 0
+ :internal-dur-at-end 178
+ :dark-offset NIL
+ :dark-utilization 0
+ :max-dark-utilization 1920
+ :low-sky "N"
+ :pcs-visibility 3049
+ :pcs-gap 0
+ )
+
+(Tic-Orbit
+ :proposal-id 17778
+ :visit-id "01"
+ :orbit-number 2
+ :pcs-time 380
+ :si-vis-utilization 701
+ :al-overhead-at-end 0
+ :internal-dur-at-end 360
+ :dark-offset NIL
+ :dark-utilization 0
+ :max-dark-utilization 1920
+ :low-sky "N"
+ :pcs-visibility 3049
+ :pcs-gap 0
+ )
+(End-RPS-File
+   :checksum 0
+)
