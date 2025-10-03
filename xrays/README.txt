@@ -1,7 +1,7 @@
 
 This tar file contains the files necessary to fit and/or plot the XRT spectra
-yourself. The files all begin Obs_00040011003 - which is the internal name given to this
-spectum. The files Obs_00040011003pc.pi and/or Obs_00040011003wt.pi are those which were
+yourself. The files all begin lhs1817_all - which is the internal name given to this
+spectum. The files lhs1817_allpc.pi and/or lhs1817_allwt.pi are those which were
 fitted by the automatic processing. They have the BACKFILE, ANCRFILE and RESPFILE
 keywords set, "bad 0-29" applied (as use of XRT data below 0.3 keV is not
 recommended) and have had "group min 1" applied by grppha so the data can be
@@ -11,7 +11,7 @@ The files *back.pi, *.rmf and *.arf files are the background and ancilliary resp
 files respectively, which are needed for fitting the data. The *source.pi files
 are the source spectrum before having any keywords set, or any binning applied.
 
-If you use the Obs_00040011003[wt|pc].pi files, Xspec will look for the back.pi and
+If you use the lhs1817_all[wt|pc].pi files, Xspec will look for the back.pi and
 RMF and ARF in your current working directory. 
 
 If you make use of these data in any publication, please cite Evans et al. 2009
