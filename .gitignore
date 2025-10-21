@@ -8,3 +8,4 @@ eg_uma/hst_prop/visit-planner/*
 *.csv
 *.ecsv
 hst_budget/*
+xmm_proposal/*
